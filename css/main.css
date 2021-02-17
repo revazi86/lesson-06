@@ -1,0 +1,12 @@
+.nav-bar{
+	position: absolute;
+	display: inline-block;
+	font size:12px;
+	color: white;
+	font-family:'Poppins';
+}
+.image-box{
+	position: relative;
+	width: 1366px;
+	height: 662px;
+}
