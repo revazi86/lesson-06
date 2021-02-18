@@ -1,14 +1,12 @@
-.box{
-	position: relative;
-}
-.nav-bar{
+.navbar{
 	position: absolute;
-	font size:12px;
-	color: black;
 	font-family:'Poppins';
 }
+.hotel{
+	position: relative;
+}
 li{
-	display:inline-block;
+	display: inline-block;
 	margin-left: 40px;
 	margin-right: 30px;
 	margin-top: 10px;
