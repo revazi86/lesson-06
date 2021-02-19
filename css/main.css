@@ -1,17 +1,188 @@
-.navbar{
-	position: absolute;
-	font-family:'Poppins';
+.nav-bar {
+    position: absolute;
+    top:20px;
+    right: 0;
+    display: inline-block;
+    margin-right:139px;
+    font-family: 'Poppins';
+    }
+
+.nav-bar li {
+    display:inline-block;
+    font-size: 22px;
+    padding:0 10px; 
 }
-.hotel{
-	position: relative;
+.logo {
+    position:absolute;
+    top:20px;
+    left: 0px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppinsbold';
 }
-li{
-	display: inline-block;
-	margin-left: 40px;
-	margin-right: 30px;
-	margin-top: 10px;
+ .hotel {
+        width: 100%;
 }
-.image-box{
-	width: 1366px;
-	height: 662px;
+.hotels { 
+ position: relative;   
+ margin-top: -20px;
+}
+.content {
+    margin: 70px 0 64px 135px;
+    z-index: 200;
+    position: relative;
+}
+.scroll div:nth-child(2){
+    display: inline-block;
+    background-color:white;
+    width:51px;
+    height:51px; 
+    padding:15px 15px;
+}
+.scroll div:nth-child(1){
+    display: inline-block;
+    background-color:#5863F8; 
+    width:51px;
+    height:51px;
+    right: 190px;
+    padding:15px 15px;
+} 
+.scroll div{
+    position: absolute;
+    top:600px;
+    right: 139px;
+}
+.hotels a{
+    color: white;
+} 
+.button a{
+    color: white;
+}
+.name {
+    position:absolute;
+    top:20px;
+    left:139px;
+}
+.info {
+    position: absolute;
+    top:227px;
+    left: 139px;
+    font-family: 'Poppinsextra';
+    color: white;
+}
+.stik {
+    position: sticky;
+    top:600px;
+    z-index: 30;
+    color: white;
+    font-size: 20px;
+    left: 139px;
+    margin-left: 139px;
+    font-family: 'Poppinsbold';
+}
+
+.info h1 {
+    font-size: 62px;
+     font-family: 'Poppinsextra';
+}
+.info p{
+    font-size: 14px;
+    width: 400px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+}
+.content1{
+    display:inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin:0 120px 0 0;
+}
+.footer h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 33px;
+    font-family: 'Poppinsextra';
+}
+.footerdesc{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 66px;
+    font-family: 'Poppins';
+}
+.content2 {
+    display: inline-block;
+    padding-right:20px;
+ }
+.button {position:relative;
+    margin-top:43px;
+    width: 184px;
+    height: 50px;
+    background-color:#5863F8;
+    font-family: 'Poppinsreg';
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.right{
+    position: absolute;
+    top: 18px;
+    right:40px;
+}
+.title{
+    color: black;
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-family: 'Poppinsextra';
+
+}
+.text1{
+    margin-top:30px;
+    font-family: 'Poppinsreg';
+    font-size: 16px;
+}
+.conttext2{
+    margin-top:30px;
+    font-family: 'Poppinsreg';
+    font-size: 14px;
+}
+.imgcont{
+ width: 702px;
+} 
+.img1{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 340px;
+}
+.img2{
+    margin-bottom: 20px;
+    width: 340px;
+}
+.footer{
+    position: relative;
+    background-color: black;
+    padding:60px 0 30px 139px;
+    z-index: 1000;
+}
+.soc{
+    margin-right: 12px;
+
+}
+.creater{
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Poppins';
+}
+.hr::after {
+    content: " ";
+    border-right: 1px solid #B1B1B1;
+    margin:0 4px;
+}
+.avtor::after {
+    font-size: 14px;
+    content: "Maron";
+    color:#5863F8 ;
+    font-family: 'Poppins';
 }
